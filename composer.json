@@ -1,14 +1,14 @@
 {
-    "name": "bjyblog",
-    "description": "the bjyblog blog",
+    "name": "delevin",
+    "description": "the delevin blog",
     "type": "blog",
-    "keywords": ["bjyblog","thinkphp","blog"],
-    "homepage": "http://baijunyao.com",
+    "keywords": ["delevin","thinkphp","blog"],
+    "homepage": "https://www.delevin.top",
     "license": "Apache2",
     "authors": [
         {
-            "name": "baijunyao",
-            "email": "baijunyao@baijunyao.com"
+            "name": "Delevin",
+            "email": "546530715@qq.com"
         }
     ],
     "require": {
