@@ -44,8 +44,8 @@ if(@$_GET['c']=='success'){
             $link->select_db($data['DB_NAME']);
         }
         // 导入sql数据并创建表
-        $bjyblog_str=file_get_contents('./bjyblog.sql');
-        $sql_array=preg_split("/;[\r\n]+/", str_replace('bjy_',$data['DB_PREFIX'],$bjyblog_str));
+        $Delevin、博客_str=file_get_contents('./Delevin、博客.sql');
+        $sql_array=preg_split("/;[\r\n]+/", str_replace('bjy_',$data['DB_PREFIX'],$Delevin、博客_str));
         foreach ($sql_array as $k => $v) {
             if (!empty($v)) {
                 $link->query($v);
