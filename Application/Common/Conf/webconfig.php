@@ -28,8 +28,8 @@ return array(
     'IMAGE_WATER_ALPHA'         =>  '80',    //图片水印 水印透明度：0-100
 
 //*************************************第三方登录****************************************
-    'QQ_APP_ID'                 =>  '',            // QQ登录APP D
-    'QQ_APP_KEY'                =>  '',           // QQ登录APP KEY
+    'QQ_APP_ID'                 =>  '101383786',            // QQ登录APP D
+    'QQ_APP_KEY'                =>  'c3cba64d2379bf58b21d9c3247cc0b11',           // QQ登录APP KEY
     'SINA_API_KEY'              =>  '',         // 新浪登录API KEY
     'SINA_SECRET'               =>  '',          // 新浪登录SECRET
     'DOUBAN_API_KEY'            =>  '',       // 豆瓣登录API KEY

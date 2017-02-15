@@ -113,7 +113,8 @@ function comment(obj){
                 });
             }
         }else{
-            $('#b-modal-login').modal('show');
+            delevin_check_login();
+            //$('#b-modal-login').modal('show');
         }
     });
 }
@@ -133,9 +134,30 @@ function reply(obj){
 
 // 删除提示和样式
 function delete_hint(obj){
+    delevin_check_login();
     var word=$(obj).text();
     if(word=='请先登录后发表评论' || word=='请先登录后回复评论'){
         $(obj).text('');
         $(obj).css('color', '#333');
     }
+}
+function delevin_check_login(){
+    $.post(check_login, function(data) {
+        if(data !=1 ){
+            layer.confirm('您还未登陆,无法评论。是否登陆？', {
+                btn: ['我要登陆','稍候登陆'] //按钮
+            }, function(){
+                window.open("/Home/User/oauth_login/type/qq");
+                layer.confirm('是否在打开的新窗口中已经登陆？', {
+                    btn: ['是的','没有'] //按钮
+                }, function(){
+                    location.reload();
+                }, function(){
+                    layer.msg('好的收到');
+                });
+            }, function(){
+                layer.msg('好吧');
+            });
+        }
+    });
 }
