@@ -38,7 +38,7 @@ class ArticlePicModel extends BaseModel{
             ->select();
         $root_path=rtrim($_SERVER['SCRIPT_NAME'],'/index.php');
         $data[0]['path']=$root_path.$data[0]['path'];
-        return $data[0]['path'];
+        return !empty($data[0]['path']) ? $data[0]['path'] : '/Upload/image/ueditor/20170214/1487054819743729.png';
     }
 
 }
