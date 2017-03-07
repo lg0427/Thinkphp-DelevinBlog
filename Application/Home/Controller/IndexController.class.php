@@ -8,6 +8,9 @@ class IndexController extends HomeBaseController {
 
     // 首页
     public function index(){
+
+        $_SESSION['forward'] = (is_ssl() ? 'https://' : 'http://') . $_SERVER['HTTP_HOST'] . $_SERVER["REQUEST_URI"];
+
         $articles=D('Article')->getPageData();
         $assign=array(
             'articles'=>$articles['data'],
@@ -67,6 +70,9 @@ class IndexController extends HomeBaseController {
 
     // 文章内容
     public function article(){
+
+        $_SESSION['forward'] = (is_ssl() ? 'https://' : 'http://') . $_SERVER['HTTP_HOST'] . $_SERVER["REQUEST_URI"];
+
         $aid=I('get.aid',0,'intval');
         $cid=intval(cookie('cid'));
         $tid=intval(cookie('tid'));
@@ -125,6 +131,9 @@ class IndexController extends HomeBaseController {
 
     // 随言碎语
     public function chat(){
+
+        $_SESSION['forward'] = (is_ssl() ? 'https://' : 'http://') . $_SERVER['HTTP_HOST'] . $_SERVER["REQUEST_URI"];
+
         $assign=array(
             'data'=>D('Chat')->getDataByState(0,1),
             'cid'=>'chat'
@@ -135,6 +144,8 @@ class IndexController extends HomeBaseController {
 
     // 开源项目
     public function git(){
+
+        $_SESSION['forward'] = (is_ssl() ? 'https://' : 'http://') . $_SERVER['HTTP_HOST'] . $_SERVER["REQUEST_URI"];
         $assign=array(
             'cid'=>'git'
             );

@@ -9,7 +9,7 @@ return array(
 
 //*************************************优化推广****************************************
     'WEB_NAME'                  =>  'Delevin、博客',             //网站名：
-    'WEB_KEYWORDS'              =>  'Delevin、,帅白,技术博客,个人博客,Delevin、博客',         //网站关键字
+    'WEB_KEYWORDS'              =>  'Delevin、技术博客,个人博客,Delevin、博客',         //网站关键字
     'WEB_DESCRIPTION'           =>  'Delevin、的个人技术博客,Delevin、博客官方网站',      //网站描述
     'AUTHOR'                    =>  'Delevin、',               //默认作者
     'COPYRIGHT_WORD'            =>  '本文为Delevin、原创文章,转载无需和我联系,但请注明来自Delevin、博客www.delevin.top',       //文章保留版权提示
