@@ -322,7 +322,7 @@ class ArticleModel extends BaseModel{
     // 传递搜索词获取数据
     public function getDataByTitle($search_word){
         $map=array(
-            'title'=>array('like',"%$search_word%")
+            'title|content'=>array('like',"%$search_word%")
             );
         $count=$this->where($map)->count();
         $page=new \Org\Bjy\Page($count,10);
