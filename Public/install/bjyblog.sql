@@ -152,7 +152,7 @@ INSERT INTO `_config` VALUES ('3', 'WEB_DESCRIPTION', 'Delevin、的个人技术
 INSERT INTO `_config` VALUES ('4', 'WEB_STATUS', '1');
 INSERT INTO `_config` VALUES ('5', 'ADMIN_PASSWORD', '21232f297a57a5a743894a0e4a801fc3');
 INSERT INTO `_config` VALUES ('6', 'WATER_TYPE', '1');
-INSERT INTO `_config` VALUES ('7', 'TEXT_WATER_WORD', 'www.delevin.top');
+INSERT INTO `_config` VALUES ('7', 'TEXT_WATER_WORD', 'www.iswoole.com');
 INSERT INTO `_config` VALUES ('8', 'TEXT_WATER_TTF_PTH', './Public/static/font/ariali.ttf');
 INSERT INTO `_config` VALUES ('9', 'TEXT_WATER_FONT_SIZE', '15');
 INSERT INTO `_config` VALUES ('10', 'TEXT_WATER_COLOR', '#008CBA');
@@ -163,8 +163,8 @@ INSERT INTO `_config` VALUES ('14', 'IMAGE_WATER_LOCATE', '9');
 INSERT INTO `_config` VALUES ('15', 'IMAGE_WATER_ALPHA', '80');
 INSERT INTO `_config` VALUES ('16', 'WEB_CLOSE_WORD', '网站升级中，请稍后访问。');
 INSERT INTO `_config` VALUES ('17', 'WEB_ICP_NUMBER', '豫ICP备14009546号-3');
-INSERT INTO `_config` VALUES ('18', 'ADMIN_EMAIL', 'baijunyao@www.delevin.top');
-INSERT INTO `_config` VALUES ('19', 'COPYRIGHT_WORD', '本文为Delevin、原创文章,转载无需和我联系,但请注明来自Delevin、博客www.delevin.top');
+INSERT INTO `_config` VALUES ('18', 'ADMIN_EMAIL', 'baijunyao@www.iswoole.com');
+INSERT INTO `_config` VALUES ('19', 'COPYRIGHT_WORD', '本文为Delevin、原创文章,转载无需和我联系,但请注明来自Delevin、博客www.iswoole.com');
 INSERT INTO `_config` VALUES ('20', 'QQ_APP_ID', '');
 INSERT INTO `_config` VALUES ('21', 'CHANGYAN_APP_ID', 'cyrKRbJ5N');
 INSERT INTO `_config` VALUES ('22', 'CHANGYAN_CONF', 'prod_c654661caf5ab6da98742d040413815b');
@@ -212,7 +212,7 @@ CREATE TABLE `_link` (
 -- ----------------------------
 -- Records of _link
 -- ----------------------------
-INSERT INTO `_link` VALUES ('2', 'Delevin、博客', 'http://www.delevin.top', '1', '1', '0');
+INSERT INTO `_link` VALUES ('2', 'Delevin、博客', 'http://www.iswoole.com', '1', '1', '0');
 
 -- ----------------------------
 -- Table structure for _oauth_user

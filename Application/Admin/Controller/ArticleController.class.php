@@ -58,8 +58,8 @@ class ArticleController extends AdminBaseController
     public function baidu_site($aid)
     {
         $urls = array();
-        $urls[] = "http://www.delevin.top/article/{$aid}";;
-        $api = 'http://data.zz.baidu.com/urls?site=www.delevin.top&token=GiNsH8WNuTr7J8Jo';
+        $urls[] = "http://www.iswoole.com/article/{$aid}";;
+        $api = 'http://data.zz.baidu.com/urls?site=www.iswoole.com&token=GiNsH8WNuTr7J8Jo';
         $ch = curl_init();
         $options = array(
             CURLOPT_URL            => $api,
@@ -84,10 +84,10 @@ class ArticleController extends AdminBaseController
         if (empty($article_list)) return;
         $urls = array();
         foreach ($article_list as $val) {
-            $urls[] = "http://www.delevin.top/article/{$val['aid']}";
+            $urls[] = "http://www.iswoole.com/article/{$val['aid']}";
             //$this->baidu_site($val['aid']);
         }
-        $api = 'http://data.zz.baidu.com/urls?site=www.delevin.top&token=GiNsH8WNuTr7J8Jo';
+        $api = 'http://data.zz.baidu.com/urls?site=www.iswoole.com&token=GiNsH8WNuTr7J8Jo';
         $ch = curl_init();
         $options =  array(
             CURLOPT_URL => $api,

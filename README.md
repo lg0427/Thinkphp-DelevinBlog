@@ -1,8 +1,8 @@
 # thinkphp-bjyblog
 
 ## 链接
-- 博客：https://www.delevin.top/  
-- github：https://github.com/q546530715/www.delevin.top.git   
+- 博客：http://www.iswoole.com/  
+- github：https://github.com/q546530715/www.iswoole.com.git   
 #
 - 源博客：http://baijunyao.com   
 - 源github：https://github.com/baijunyao/thinkphp-bjyblog   
@@ -26,8 +26,8 @@
 2. 后台登录密码默认为admin；
 3. 如果确认开启了mod_rewrite  
 请将/Application/Common/Conf/config.php中的URL_MODEL改为2以优化url  
-未开启路由：https://www.delevin.top/index.php/Home/Index/article/aid/60  
-开启路由后：https://www.delevin.top/article/60
+未开启路由：http://www.iswoole.com/index.php/Home/Index/article/aid/60  
+开启路由后：http://www.iswoole.com/article/60
 4. 把根目录下的robots.txt中的delevin.top改为自己的域名；
 
 ## 针对thinkphp的改进优化；

@@ -12,12 +12,12 @@ return array(
     'WEB_KEYWORDS'              =>  'Delevin、技术博客,个人博客,Delevin、博客',         //网站关键字
     'WEB_DESCRIPTION'           =>  'Delevin、的个人技术博客,Delevin、博客官方网站',      //网站描述
     'AUTHOR'                    =>  'Delevin、',               //默认作者
-    'COPYRIGHT_WORD'            =>  '本文为Delevin、原创文章,转载无需和我联系,但请注明来自Delevin、博客www.delevin.top',       //文章保留版权提示
+    'COPYRIGHT_WORD'            =>  '本文为Delevin、原创文章,转载无需和我联系,但请注明来自Delevin、博客www.iswoole.com',       //文章保留版权提示
     'IMAGE_TITLE_ALT_WORD'      =>  'Delevin、博客', //图片默认title和alt
 
 //*************************************水印设置****************************************
     'WATER_TYPE'                =>  '1',           //水印类型 0:不使用水印 1:文字水印 2:图片水印 3:文字和图片水印同时使用
-    'TEXT_WATER_WORD'           =>  'www.delevin.top',      //文字水印内容
+    'TEXT_WATER_WORD'           =>  'www.iswoole.com',      //文字水印内容
     'TEXT_WATER_TTF_PTH'        =>  './Public/static/font/ariali.ttf',   //文字水印字体路径
     'TEXT_WATER_FONT_SIZE'      =>  '15', //文字水印文字字号
     'TEXT_WATER_COLOR'          =>  '#008CBA',     //文字水印文字颜色

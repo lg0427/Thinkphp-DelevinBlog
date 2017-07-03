@@ -12,8 +12,8 @@
  * PHP分页类
  * 修改者：白俊遥
  * 日  期：2015.5.10
- * 邮  箱：baijunyao@www.delevin.top
- * 博  客：http://www.delevin.top
+ * 邮  箱：baijunyao@www.iswoole.com
+ * 博  客：http://www.iswoole.com
  */
 namespace Org\Bjy;
 
