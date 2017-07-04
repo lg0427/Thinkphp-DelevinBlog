@@ -51,7 +51,7 @@ class ChangYanController extends \Think\Controller
                             'cy_replyid' => $val['cmtid'],
                             'aid'        => $data['sourceid'],
                             'content'    => $val['content'],
-                            'date'       => strtotime($val['ctime']),
+                            'date'       => time(),
                         ];
                         $addId = D('Comment')->add($commentData);
                         if ($addId > 0) {
@@ -73,6 +73,7 @@ class ChangYanController extends \Think\Controller
 
 
         }
+
         return false;
     }
 }
